@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:5001/api/admin";
+  `${import.meta.env.VITE_API_URL}/admin`;
 
 const getToken = () => {
   return localStorage.getItem("token");

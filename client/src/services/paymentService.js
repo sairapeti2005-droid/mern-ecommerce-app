@@ -1,6 +1,6 @@
 import axios from "axios";
 const API_URL =
-"https://mern-ecommerce-app-w7nr.onrender.com/api/payment";
+  `${import.meta.env.VITE_API_URL}/payment`;
 
 export const createPaymentOrder =
   async (amount) => {

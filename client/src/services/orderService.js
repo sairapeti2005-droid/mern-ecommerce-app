@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-"https://mern-ecommerce-app-w7nr.onrender.com/api/orders";
+  `${import.meta.env.VITE_API_URL}/orders`;
 const getToken = () => {
   return localStorage.getItem("token");
 };
