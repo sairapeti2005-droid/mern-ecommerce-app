@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5001/api/wishlist";
-
+const API_URL ="https://mern-ecommerce-app-w7nr.onrender.com/api/wishlist";
 const getToken = () => {
   return localStorage.getItem("token");
 };

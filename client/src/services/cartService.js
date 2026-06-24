@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5001/api/cart";
+const API_URL =
+"https://mern-ecommerce-app-w7nr.onrender.com/api/cart";
 
 const getToken = () => {
   return localStorage.getItem("token");

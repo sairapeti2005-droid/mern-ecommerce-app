@@ -1,7 +1,6 @@
 import axios from "axios";
-
 const API_URL =
-  "http://localhost:5001/api/payment";
+"https://mern-ecommerce-app-w7nr.onrender.com/api/payment";
 
 export const createPaymentOrder =
   async (amount) => {
